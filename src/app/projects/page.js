@@ -13,6 +13,7 @@ import Image from "next/image";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 import Lenis from "lenis";
+import TextParalaxComp from "@/components/text-paralax";
 
 const ProejctsPage = () => {
   useEffect(() => {
@@ -88,8 +89,9 @@ const ProejctsPage = () => {
         </div>
       </div>
       <div className="h-screen flex items-center justify-center text-6xl">
-        Next Section
+        Next Section is text paralax
       </div>
+      <TextParalaxComp />
     </>
   );
 };
