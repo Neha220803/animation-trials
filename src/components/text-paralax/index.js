@@ -15,7 +15,6 @@ const TextParalaxComp = () => {
   });
   return (
     <div className="overflow-hidden">
-      <div className="h-[100vh]" />
       <div ref={container}>
         <Slide
           src={Picture1}
