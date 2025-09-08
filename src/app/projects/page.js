@@ -14,6 +14,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 import Lenis from "lenis";
 import TextParalaxComp from "@/components/text-paralax";
+import TimelineStickyComp from "@/components/sticky-comps/TimelineSticky";
 
 const ProejctsPage = () => {
   useEffect(() => {
@@ -92,6 +93,7 @@ const ProejctsPage = () => {
         Next Section is text paralax
       </div>
       <TextParalaxComp />
+      <TimelineStickyComp />
     </>
   );
 };
