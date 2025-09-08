@@ -109,7 +109,7 @@ const TimelineStickyComp = () => {
               </h3>
               <p className="text-white mb-6">
                 Every capital ship since the design of the battleship
-                Dreadnought in 1905 had placed the officers' quarters closer to
+                Dreadnought in 1905 had placed the officers quarters closer to
                 their action stations amidships; after complaints from the
                 Fleet, Queen Mary was the first battlecruiser to restore the
                 quarters to their traditional place in the stern. In addition,
@@ -124,9 +124,9 @@ const TimelineStickyComp = () => {
               <p className="text-white mb-6">
                 Queen Mary, the only ship of her name ever to serve in the Royal
                 Navy, was named for Mary of Teck, the wife of King George V. The
-                Queen's representative at the ship's christening on 20 March
-                1912 was the wife of Viscount Allendale. Slightly larger than
-                the preceding Lion-class ships.
+                Queens representative at the ships christening on 20 March 1912
+                was the wife of Viscount Allendale. Slightly larger than the
+                preceding Lion-class ships.
               </p>
             </div>
           </div>
