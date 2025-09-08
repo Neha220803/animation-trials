@@ -15,6 +15,7 @@ import { useRef } from "react";
 import Lenis from "lenis";
 import TextParalaxComp from "@/components/text-paralax";
 import TimelineStickyComp from "@/components/sticky-comps/TimelineSticky";
+import HorizontalScrollProjectComp from "@/components/horizontal-scroll/HorizontalScrollProjects";
 
 const ProejctsPage = () => {
   useEffect(() => {
@@ -93,7 +94,11 @@ const ProejctsPage = () => {
         Next Section is text paralax
       </div>
       <TextParalaxComp />
-      <TimelineStickyComp />
+      {/* <TimelineStickyComp /> */}
+      <HorizontalScrollProjectComp />
+      <div className="h-screen text-7xl flex justify-center items-center">
+        Horizontal Scroll Over
+      </div>
     </>
   );
 };
