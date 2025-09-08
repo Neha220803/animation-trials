@@ -14,7 +14,7 @@ const HorizontalScrollProjectComp = () => {
   const { scrollYProgress } = useScroll({ target: targetRef });
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-55%"]);
   return (
-    <div className="carousel" ref={targetRef}>
+    <div className="carousel bg-neutral-700" ref={targetRef}>
       <div className="contentContainer">
         <motion.div className="images" style={{ x }}>
           <div className="imageItem">
